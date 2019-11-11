@@ -7,7 +7,7 @@
 
 ------------
 
-####Details
+#### Details
 - Goto google.com and search for **Eclipse IDE for C/C++ Developers**
 - Downlaod the latest x64 bit version ZIP file for the IDE.
 - Extract it on C:\
