@@ -1,5 +1,8 @@
 ### How to Setup C++ Dev Environment on Windows 10
 
+##### Prerequisites
+1) x64 bit JAVA JDK/JRE installed with JAVA_HOME defined.
+
 ##### High Level Steps
 1) Download and Install **Eclipse IDE for C/C++ Developers**
 2) Download and Install **MinGW** GNU Compiler Collection (GCC)
@@ -26,23 +29,7 @@
 - Run C:\eclipse\eclipse.exe as admin to launch **Eclipse IDE**
 - Setup workspace
 - Go to File Menu and create a new **C++ Project**.
-- While on the **Project Explorer** open on the left side, go to the **Project** menu and select **Properties**.
-- Go to **C/C++ General** -> **Paths and Symbols**.
-- Under the **Includes** tab Add the following settings for **GNU C** and **GNU C++**
-	- GNU C
-		- ${MINGW_HOME}\include
-		- ${MINGW_HOME}\lib\gcc\mingw32\8.2.0\include
-		- ${MINGW_HOME}\lib\gcc\mingw32\8.2.0\include-fixed
-	- GNU C++
-		- ${MINGW_HOME}\include
-		- ${MINGW_HOME}\lib\gcc\mingw32\8.2.0\include\c++
-		- ${MINGW_HOME}\lib\gcc\mingw32\8.2.0\include\c++\mingw32
-		- ${MINGW_HOME}\lib\gcc\mingw32\8.2.0\include\c++\backward
-		- ${MINGW_HOME}\lib\gcc\mingw32\8.2.0\include
-		- ${MINGW_HOME}\lib\gcc\mingw32\8.2.0\include-fixed
-- Note: Update the above path based on mingw version you downloaded.
 - Write a C++ program and Run/Debug it as C++ Local Application
-
 
 ------------
 develop24k@gmail.com
